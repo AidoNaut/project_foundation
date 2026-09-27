@@ -1,0 +1,23 @@
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated build and simulation outputs (keep source artifacts tracked)
+build/
+dist/
+out/
